@@ -1,5 +1,5 @@
 # Shopping App.
-[![Build Status](https://travis-ci.org/mmosoroohh/shopping-list.svg?branch=master)](https://travis-ci.org/mmosoroohh/shopping-list).
+[![Build Status](https://travis-ci.org/mmosoroohh/shopping-list.svg?branch=master)](https://travis-ci.org/mmosoroohh/shopping-list). [![TeamCity (simple build status)](https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/bt345.svg)]()
 
 This is a platform that allows users to store their and share the shopping list online.
 
