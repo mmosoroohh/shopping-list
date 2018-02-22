@@ -1,4 +1,4 @@
-# Shopping App.
+# Shopping list App.
 [![Codeship](https://img.shields.io/codeship/d6c1ddd0-16a3-0132-5f85-2e35c05e22b1.svg)]() [![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/filp/whoops.svg)]()  [![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]()
 
 This is a platform that allows users to store their and share the shopping list online.
