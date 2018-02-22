@@ -8,11 +8,13 @@ install:
 
 script:
  -nosetests
+ -test.py
 
 
  branches:
   except:
    -login
+   -list
 
 
 branches:
