@@ -1,7 +1,7 @@
 # Shopping App.
-[![Codeship](https://img.shields.io/codeship/d6c1ddd0-16a3-0132-5f85-2e35c05e22b1.svg)]() [![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/filp/whoops.svg)]()
+[![Codeship](https://img.shields.io/codeship/d6c1ddd0-16a3-0132-5f85-2e35c05e22b1.svg)]() [![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/filp/whoops.svg)]()  [![PyPI](https://img.shields.io/pypi/pyversions/Django.svg)]()
 
-This is a platform that allows users to store their and share the shopping list online.[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nimelepbpejjlbmoobocpfnjhihnpked.svg)]()
+This is a platform that allows users to store their and share the shopping list online.
 
 
 The app enables users to register, login and upload the shopping lists.
