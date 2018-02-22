@@ -1,4 +1,4 @@
-#The shopping-list
+# The shopping-list
 This is a platform that allows users to store their and share the shopping list online.
 
 The app enables users to register, login and upload the shopping lists.
