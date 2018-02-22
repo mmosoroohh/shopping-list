@@ -1,7 +1,7 @@
 # Shopping App.
-[![Build Status](https://travis-ci.org/mmosoroohh/shopping-list.svg?branch=master)](https://travis-ci.org/mmosoroohh/shopping-list). [![TeamCity (simple build status)](https://img.shields.io/teamcity/http/teamcity.jetbrains.com/s/bt345.svg)]()
+[![Codeship](https://img.shields.io/codeship/d6c1ddd0-16a3-0132-5f85-2e35c05e22b1.svg)]() [![Scrutinizer Coverage](https://img.shields.io/scrutinizer/coverage/g/filp/whoops.svg)]()
 
-This is a platform that allows users to store their and share the shopping list online.
+This is a platform that allows users to store their and share the shopping list online.[![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nimelepbpejjlbmoobocpfnjhihnpked.svg)]()
 
 
 The app enables users to register, login and upload the shopping lists.
@@ -13,4 +13,4 @@ The app enables users to register, login and upload the shopping lists.
 ToDo: Form Validation, Backend Intergration and Database Intergration.
 
 Running the app on your machine.
- - Run https://github.com/mmosoroohh/shopping-list or download zip file.
+ - Run https://github.com/mmosoroohh/shopping-list or download zip file.  [![SourceForge](https://img.shields.io/sourceforge/dd/sevenzip.svg)]()
