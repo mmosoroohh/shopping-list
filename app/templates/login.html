@@ -1,0 +1,27 @@
+{% extends 'index.html' %} {% block title %} Login {% endblock %} 
+
+{% block body %}
+
+
+        <div class="login">
+            {% if message %}
+            <p><strong>Error:</strong> {{ message }} {% endif %}
+            <form method="POST" action="{{url_for('login')}}">
+                <div class="inputwrapper">
+                    <label>Email</label>
+                    <input type="Email" name="Email" placeholder="Enter Email">
+                </div>
+
+                <div class="inputwrapper">
+                    <label>Password</label>
+                        <input type="Password" name="Password" placeholder="Enter Password">
+                    </div>
+                    <div class="submit">
+                        <button type="submit" class="btn-login">Login</button>
+                        <a href="{{url_for('register')}}"> Or Register..</a>
+                    </div>
+            </form>
+            
+        </div>
+
+{% endblock %}

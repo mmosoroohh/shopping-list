@@ -1,0 +1,42 @@
+<!DOCTYPE hmtl>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devie-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>The Shopping List App</title>
+</head>
+
+<body>
+   
+   
+
+    <header>
+        <div class="menu">
+            {% if session.show %} {% if session.logged_in %}
+            <a href="{{url_for('home')}}">HOME</a>
+            <a href="{{url_for('add_list')}}">ADD LIST</a>
+            <a href="{{url-for('type_list')}}">TYPE OF LIST</a>
+            <a href="{{url_for('shopping_list')}}">MY SHOPPING</a>
+            {% endif %}{% endif %}
+
+        </div>
+            
+        {% block title %} {% endblock %}
+        <div class="icon">The Shopping List</div>
+        <div class="register">
+            {% if session.show %} {% if not session.logged_in %}
+            <a href="{{url_for('register')}}">Login/Register</a>{% else %}
+            <a href="{{url_for('logout')}}">Logout</a>
+            {% endif %} {% else %} {% endif %}
+        </div>
+
+    </header>
+    {% block body %} {% endblock %}
+
+
+</body>
+
+</html>

@@ -1,26 +1,8 @@
-<!DOCTYPE hmtl>
-<html>
+{% extends 'index.html' %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=devie-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css">>
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <title>Shopping List</title>
-</head>
+{% block body %}
 
-<body>
-
-    <header>
-        <div class="menu"></div>
-        <div class="icon">The Shopping List</div>
-        <div class="register"></div>
-               
-    </header>
-    <header>
-        <div class="menu"></div>
-        <div class="register"><a href="login.html">Login/Register</a></div>
-    </header>
+    
     <div class="jumbotron text-center">
         <h1>Welcome to the Shopping List App</h1>
         <p class="lead">This application is built to ease access to different shopping lists by users creating a an account and be able to enter the shopping lists with ease!</p>
@@ -29,7 +11,7 @@
     <div class="container">
         <div class="shopping_list">
             <div class="image">
-                <img src="images/image.jpg" alt="Shopping list">
+                <img src="/images/image.jpg" alt="Shopping list">
             </div>
             <div class="info">
                 <div class="title">Groceries</div>
@@ -55,7 +37,7 @@
     <div class="container">
      <div class="Shopping_list">
         <div class="image">
-            <img src="images/image2.png" alt="shopping list">
+            <img src="/images/image2.png" alt="shopping list">
         </div>
         <div class="info">
             <div class="title">Breakfast</div>
@@ -73,6 +55,5 @@
             </div>
     </div>
 
-</body>
+{% endblock %}
 
-</html>
