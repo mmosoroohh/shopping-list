@@ -14,3 +14,6 @@ ToDo: Form Validation, Backend Intergration and Database Intergration.
 
 Running the app on your machine.
  - Run https://github.com/mmosoroohh/shopping-list or download zip file.  [![SourceForge](https://img.shields.io/sourceforge/dd/sevenzip.svg)]()
+ - Create a virtualenv venv.
+ - Run pip install -r requirements.txt.
+ - Run python app.py in your terminal/command prompt to view app on your browser.
