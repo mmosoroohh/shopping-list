@@ -1,5 +1,6 @@
 # Shopping App.
-[![Build Status](https://travis-ci.org/mmosoroohh/shopping-list.svg?branch=master)](https://travis-ci.org/mmosoroohh/shopping-list)
+[![Build Status](https://travis-ci.org/mmosoroohh/shopping-list.svg?branch=master)](https://travis-ci.org/mmosoroohh/shopping-list).
+
 This is a platform that allows users to store their and share the shopping list online.
 
 
